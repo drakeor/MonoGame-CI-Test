@@ -14,10 +14,10 @@ install:
 before_build:
 - cmd: nuget restore
 build:
-  project: ProjectRift.sln
+  project: MonoGameTest.sln
   verbosity: minimal
 artifacts:
-- path: ProjectRift\bin\DesktopGL\AnyCPU\Debug\*
+- path: MonoGameTest\bin\DesktopGL\AnyCPU\Debug\*
   name: Binaries (Debug)
-- path: ProjectRift\bin\DesktopGL\AnyCPU\Release\*
+- path: MonoGameTest\bin\DesktopGL\AnyCPU\Release\*
   name: Binaries
